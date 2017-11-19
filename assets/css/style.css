@@ -1,0 +1,91 @@
+/* styling */
+
+body {
+	background-image: url("../images/background.jpg");
+    font-family: Avenir Next, sans-serif; 
+}
+
+div {
+	background-color: white;
+	margin: 10px;
+	border: solid 2px antiquewhite;
+	padding: 10px; 
+}
+
+.row {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: auto;
+    align-items: center;
+}
+
+h1, h3 {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
+
+h1, h3, span {
+	font-weight: semi-bold;
+    text-align: center;
+}
+
+h1 {
+	font-size: 30pt;
+    text-align: center;
+}
+
+ol {
+	list-style: decimal inside; 
+}
+
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+
+/* div styling */
+
+div.header, div.shells {
+	background-color: beige;
+    width: 1000px;
+    text-align: center;
+}
+
+div.header, div.instructions{
+	width: 50%;
+}
+
+/* class styling */
+
+.numberToMatch, .score {
+	height: 50px; 
+    margin-right: 20px;
+}
+
+.userTotal {
+	height: 50px;
+    margin-left: 20px;
+}
+
+.shells {
+	clear: both; 
+}
+
+.shellImage {
+	height: 200px;
+	margin: 20px; 
+}
+
+/* ID styling */
+
+#blue {
+	color: #3092c7; }
+
+#green {
+	color: #00aa59; }
+
+#red {
+	color: #ec4b5f; }
+
+#yellow {
+	color: #ffc225; }
