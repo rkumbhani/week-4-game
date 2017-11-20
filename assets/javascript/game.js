@@ -7,10 +7,10 @@ $( document ).ready(function(){
   // Setting up random numbers for each jewel
   // Random number has to be between 1 - 12
   $('#randomNumber').text(Random);
-  var num1= Math.floor(Math.random()*11+1)
-  var num2= Math.floor(Math.random()*11+1)
-  var num3= Math.floor(Math.random()*11+1)
-  var num4= Math.floor(Math.random()*11+1)
+  var num1= Math.floor(Math.random()*11+1);
+  var num2= Math.floor(Math.random()*11+1);
+  var num3= Math.floor(Math.random()*11+1);
+  var num4= Math.floor(Math.random()*11+1);
   
   //  Decaring variables for tallies
   var userTotal= 0; 
@@ -41,15 +41,15 @@ alert("You won!");
   reset();
 }
     
-//addes the losses to the userTotal
+//adds the losses to the userTotal
 function loser(){
 alert ("You lose!");
   losses++;
   $('#numberLosses').text(losses);
-  reset()
+  reset();
 }
     
-//sets up click for jewels
+//sets up click for shells
   $('#one').on ('click', function(){
     userTotal = userTotal + num1;
     console.log("New userTotal= " + userTotal);
